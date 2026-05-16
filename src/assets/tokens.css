@@ -1,0 +1,121 @@
+:root {
+  /* ── Typography ── */
+  --font-family:
+    'Inter', 'Noto Sans Thai Looped', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+  --font-size-xs: 10px;
+  --font-size-sm: 11px;
+  --font-size-md: 12px;
+  --font-size-lg: 14px;
+  --font-size-xl: 15px;
+  --line-height: 1.5;
+
+  /* ── Spacing ── */
+  --gap-xs: 4px;
+  --gap-sm: 8px;
+  --gap-md: 10px;
+  --gap-lg: 12px;
+  --gap-xl: 16px;
+
+  /* ── Padding ── */
+  --pad-xs: 2px;
+  --pad-sm: 3px;
+  --pad-md: 4px;
+  --pad-lg: 6px;
+  --pad-xl: 8px;
+  --pad-2xl: 10px;
+  --pad-3xl: 12px;
+
+  /* ── Item ── */
+  --item-padding-y: 2px;
+  --item-gap: 6px;
+
+  /* ── Border Radius ── */
+  --radius-sm: 2px;
+  --radius-md: 3px;
+  --radius-lg: 4px;
+
+  /* ── Transitions ── */
+  --transition-fast: 0.15s;
+  --transition-normal: 0.3s;
+
+  /* ── Layout ── */
+  --titlebar-height: 35px;
+  --checkbox-size: 14px;
+  --progress-height: 4px;
+  --scrollbar-width: 6px;
+  --max-content-width: 650px;
+
+  /* ── Control Buttons ── */
+  --control-btn-width: 46px;
+  --control-btn-height: 32px;
+
+  /* ── Tab ── */
+  --tab-dot-size: 6px;
+  --tab-label-max: 80px;
+  --tab-close-size: 8px;
+
+  /* ── Sidebar ── */
+  --sidebar-width: 200px;
+  --sidebar-padding: var(--pad-3xl);
+
+  /* ── Editor ── */
+  --editor-font-size: 14px;
+
+  /* ── Modal ── */
+  --modal-radius: var(--radius-lg);
+  --modal-padding: var(--pad-3xl);
+  --modal-min-width: 260px;
+
+  /* ── Colors ── */
+  --bg: #1f1f1f;
+  --surface: #242424;
+  --surface-hover: #2a2a2a;
+  --surface-dropdown: #2a2a2a;
+  --surface-raised: #3a3a3a;
+  --bg-kbd: #1a1a1a;
+  --text: #f0efed;
+  --text-dim: #696969;
+  --text-danger: #e86a6a;
+  --text-white: #fff;
+  --accent: #a1f44e;
+  --accent-checked: #8bc34a;
+  --unsaved: #969086;
+  --close-danger: #e81123;
+  --border: #272727;
+  --border-light: #3a3a3a;
+  --scrollbar-thumb: #3a3a3a;
+  --scrollbar-thumb-hover: #555;
+  --checklist-color: hsl(24, 90%, 62%);
+  --notes-color: hsl(330, 60%, 64%);
+  --link-color: #4a9eff;
+  --modal-bg: var(--surface-dropdown);
+  --modal-border: var(--border);
+  --modal-overlay: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='light'] {
+  /* ── Colors ── */
+  --bg: #f5f2eb;
+  --surface: #f4f1e6;
+  --surface-hover: hsl(43, 29%, 88%);
+  --surface-dropdown: hsl(47, 20%, 92%);
+  --surface-raised: hsl(47, 22%, 84%);
+  --bg-kbd: #f0f0f0;
+  --text: #1a1a1a;
+  --text-dim: #6d6d6d;
+  --text-danger: hsl(342, 80%, 50%);
+  --accent: #007e38;
+  --accent-checked: #007e38;
+  --unsaved: #b0a89c;
+  --close-danger: #e81123;
+  --border: hsl(43, 27%, 87%);
+  --border-light: #ebebeb;
+  --scrollbar-thumb: #e6e0d9;
+  --scrollbar-thumb-hover: #bbbbbb;
+  --checklist-color: #e16032;
+  --notes-color: #7058be;
+  --link-color: #0055cc;
+  --modal-overlay: rgba(0, 0, 0, 0.2);
+}

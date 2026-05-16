@@ -1,0 +1,30 @@
+node_modules/
+dist/
+dist-vite/
+dist-electron/
+dist-electron-v1/
+dist-electron-tmp/
+.env
+*.log
+.DS_Store
+
+# Agent tooling & project metadata
+.opencode/
+AGENTS.md
+.claude
+src/assets/single-yellow-color-icon.png
+
+# Unused prototypes
+src/assets/help_menu_toggle/
+
+sync-profile.ps1
+tmp-*
+
+# User data (keep .gitkeep so folder exists)
+documents/*
+!documents/.gitkeep
+
+# Docs: ignore all except screenshots
+docs/*
+!docs/screenshots/
+!docs/screenshots/.gitkeep
